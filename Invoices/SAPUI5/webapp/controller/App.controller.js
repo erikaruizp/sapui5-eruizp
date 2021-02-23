@@ -15,14 +15,9 @@ function (Controller,MessageToast) {
 
         onInit: function() {
             
-        },        
-        onShowHello: function() {
-//            alert("Hello World");
-            var oBundle = this.getView().getModel("i18n").getResourceBundle();
-            var sRecipient = this.getView().getModel().getProperty("/recipient/name");
-            var sMsg = oBundle.getText("helloMsg",[sRecipient]);
-//            MessageToast.show("Hello World");
-            MessageToast.show(sMsg); 
+        },
+        onOpenDialogHeader: function() {
+            this.getOwnerComponent().openHelloDialog();
         }
 
 	});

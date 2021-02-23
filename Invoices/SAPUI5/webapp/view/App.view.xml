@@ -5,21 +5,16 @@
     <Shell>          
         <App>      
             <pages> 
-                <Page title="{i18n>appTitle}">        
+                <Page title="{i18n>appTitle}">   
+                    <headerContent>
+                        <Button id="helloDialogHeaderBut"
+                                icon="sap-icon://action"
+                                press=".onOpenDialogHeader" 
+                                class="sapUiSmallMarginEnd"
+                                />                       
+                    </headerContent>     
                     <content>
-                        <Panel headerText="{i18n>helloPanel}" class="sapUiResponsiveMargin" width="auto">
-                            <content>
-                                <Button text="{i18n>showHelloButtonText}" 
-                                        press=".onShowHello" 
-                                        class="sapUiSmallMarginEnd"
-                                        />
-                                <Input value="{/recipient/name}"
-                                       valueLiveUpdate="true"
-                                       width="60%"></Input>
-                                <Text text="Hello {/recipient/name}" 
-                                      class="sapUiSmallMargin boldElements" />
-                            </content>
-                        </Panel>
+                        <mvc:XMLView viewName="logaligroup.SAPUI5.view.HelloPanel"></mvc:XMLView>
                     </content>
                 </Page>
             </pages>
