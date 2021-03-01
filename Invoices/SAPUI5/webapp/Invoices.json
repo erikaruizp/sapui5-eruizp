@@ -1,0 +1,44 @@
+{
+"Invoices": [
+        {
+            "NombreProducto": "HDD-Samsung 250Gb",
+            "Cantidad" : 21,
+            "Precio": 87.2000,
+            "NombreEmbarcador": "Fun Inc.",
+            "FechaEmbarque": "2015-04-01T00:00:00",
+            "Estado":"A"            
+        },
+        {
+            "NombreProducto": "Display Dell UH850 4K 27",
+            "Cantidad" : 4,
+            "Precio": 9.99999,
+            "NombreEmbarcador": "ACME",
+            "FechaEmbarque": "2015-02-18T00:00:00",            
+            "Estado":"B"                        
+        },
+        {
+            "NombreProducto": "RAM PX DDR4 PC4-24000 16GB",
+            "Cantidad" : 3,  
+            "Precio": 6.85000,
+            "NombreEmbarcador": "ACME",
+            "FechaEmbarque": "2015-03-02T00:00:00",            
+            "Estado":"B"            
+        },
+        {
+            "NombreProducto": "Intel Core i7-9700K 3.6Ghz",
+            "Cantidad" : 2,  
+            "Precio": 8.8000,
+            "NombreEmbarcador": "ACME",
+            "FechaEmbarque": "2015-04-12T00:00:00",            
+            "Estado":"C"            
+        },
+        {
+            "NombreProducto": "AMD Radeon RX580 8GB GDDR5",
+            "Cantidad" : 1,  
+            "Precio":  2.71212,
+            "NombreEmbarcador": "Fun Inc.",
+            "FechaEmbarque": "2015-01-27T00:00:00",            
+            "Estado":"A"            
+        }             
+    ]
+}
