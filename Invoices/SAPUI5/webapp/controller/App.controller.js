@@ -14,7 +14,7 @@ function (Controller,MessageToast) {
     return Controller.extend("logaligroup.SAPUI5.Component", {
 
         onInit: function() {
-            
+            this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass());
         },
         onOpenDialogHeader: function() {
             this.getOwnerComponent().openHelloDialog();

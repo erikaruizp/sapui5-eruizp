@@ -5,7 +5,7 @@
           xmlns:logali="logaligroup.SAPUI5.control"
           displayBlock="true">
     <Page title="{i18n>DetailsPageTitle}" showNavButton="true" navButtonPress=".onNavBack">   
-        <ObjectHeader title="{northwind>ShipName}" >
+        <ObjectHeader title="{northwind>ShipName}"  responsive="true"  fullScreenOptimized="true">
             <attributes>
                 <ObjectAttribute text="{northwind>ShipAddress}" />
                 <ObjectAttribute text="{northwind>ShipCity}" />

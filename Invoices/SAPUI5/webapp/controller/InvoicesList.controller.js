@@ -31,7 +31,7 @@ function (Controller,JSONModel,InvoicesFormatter,Filter,FilterOperator) {
             const sQuery = oEvent.getParameter("query");
 
             if (sQuery) {
-                aFilter.push( new Filter("NombreProducto",FilterOperator.Contains,sQuery));
+                aFilter.push( new Filter("ProductName",FilterOperator.Contains,sQuery));
             };
 
             const oList = this.getView().byId("invoiceList");
