@@ -1,2 +1,2 @@
 # sapui5-eruizp
-Repositorio para curso sapui5 logaligroup
+Proyecto sapui5: Invoices
